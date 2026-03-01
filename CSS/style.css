@@ -19,11 +19,13 @@ body {
 
 /* ENTÊTE */
 .entête {
-    background-color: #e6d8c9;
+    background-color: #0BB;
+    color: #2d2d2d;
     display: flex;
     align-items: center;
     padding: 40px;
     gap: 40px;
+    line-height: 1;
 }
 
 .profile-img img {
@@ -33,25 +35,20 @@ body {
     object-fit: cover;
 }
 
-.entête-text {
-    margin-left: 40px;
-}
-
 .entête-text h3 {
-    letter-spacing: 4px;
-    font-weight: normal;
-    color: #6b5b4b;
+    color: black;
 }
 
 .entête-text h1 {
     font-size: 36px;
-    margin: 10px 0;
-    color: #5a4a3a;
+    font-family: 'poppins', sans-serif;
+    color: black;
 }
 
 .entête-text p {
-    max-width: 450px;
-    color: #555;
+    max-width: 550px;
+    color: black;
+    line-height: normal;
 }
 
 /* CONTENANT */
@@ -62,8 +59,9 @@ body {
 /* GAUCHE */
 .gauche {
     width: 35%;
-    background-color: #d8c6b4;
+    background-color: #088;
     padding: 30px;
+    color: white;
 }
 
 .h2 {
@@ -87,13 +85,18 @@ body {
 /* DOITE */
 .droite {
     width: 65%;
-    padding: 40px;
+    padding: 30px;
 }
 
 .droite h2 {
     margin-bottom: 20px;
-    letter-spacing: 3px;
-    font-size: 18px;
+    letter-spacing: 1px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #088;
+    border-bottom: 3px solid #088;
+    padding-bottom: 5px;
 }
 
 .job, .education {
