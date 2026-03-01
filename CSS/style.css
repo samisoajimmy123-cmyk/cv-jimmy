@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.conteneur {
+    width: 900px;
+    background-color: white;
+}
+
+/* ENTÊTE */
+.entête {
+    background-color: #e6d8c9;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    gap: 40px;
+}
+
+.profile-img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.entête-text {
+    margin-left: 40px;
+}
+
+.entête-text h3 {
+    letter-spacing: 4px;
+    font-weight: normal;
+    color: #6b5b4b;
+}
+
+.entête-text h1 {
+    font-size: 36px;
+    margin: 10px 0;
+    color: #5a4a3a;
+}
+
+.entête-text p {
+    max-width: 450px;
+    color: #555;
+}
+
+/* CONTENANT */
+.contenant {
+    display: flex;
+}
+
+/* GAUCHE */
+.gauche {
+    width: 35%;
+    background-color: #d8c6b4;
+    padding: 30px;
+}
+
+.h2 {
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+
+.gauche section {
+    margin-bottom: 30px;
+}
+
+.gauche ul {
+    padding-left: 20px;
+}
+
+.gauche li {
+    margin-bottom: 8px;
+}
+
+/* DOITE */
+.droite {
+    width: 65%;
+    padding: 40px;
+}
+
+.droite h2 {
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    font-size: 18px;
+}
+
+.job, .education {
+    margin-bottom: 25px;
+}
+
+.date {
+    font-style: italic;
+    font-size: 14px;
+    color: #777;
+}
+
+.taf{
+    border-left: 2px solid black;
+    padding-left: 30px;
+}
+
+.étude{
+    border-left: 2px solid black;
+    padding-left: 30px;
+}
+    
